@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap avançado</title>
+    <link rel="stylesheet" href="lib/cdn.jsdelivr.net_npm_bootstrap@5.3.2_dist_css_bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="navbar navbar-expand-lg">
+                <h1>Ciências para Vestibular</h1>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#materias">Matérias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#novos-materiais">Novos Materiais</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#exercicios">Exercícios</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <section id="materias">
+            <div id="carousel-ex" class="carousel carousel-fade slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div data-bs-interval="3000" class="carousel-item active">
+                        <img class="d-block w-90" src="https://cdn.pixabay.com/photo/2023/08/16/21/10/cairn-8195026_1280.jpg"/>
+                        <div class="carousel-caption">
+                            <h2>Geometria</h2>
+                        </div>
+                    </div>
+                    <div data-bs-interval="3000" class="carousel-item">
+                        <img class="d-block w-90" src="https://cdn.pixabay.com/photo/2023/09/17/19/10/building-8259184_1280.jpg"/>
+                        <div class="carousel-caption">
+                            <h2>História</h2>
+                        </div>
+                    </div>
+                    <div data-bs-interval="3000" class="carousel-item">
+                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2023/09/06/17/37/pearl-fungus-8237670_1280.jpg"/>
+                        <div class="carousel-caption">
+                            <h2>Biologia</h2>
+                        </div>
+                    </div>
+                    <div data-bs-interval="3000" class="carousel-item">
+                        <img class="d-block w-90" src="https://cdn.pixabay.com/photo/2023/08/15/14/13/harvest-8192037_1280.jpg"/>
+                        <div class="carousel-caption">
+                            <h2>Atualidades</h2>
+                        </div>
+                    </div>
+                    <div data-bs-interval="3000" class="carousel-item">
+                        <img class="d-block w-90" src="https://cdn.pixabay.com/photo/2023/07/12/07/49/lichen-8121969_1280.jpg"/>
+                        <div class="carousel-caption">
+                            <h2>Geografia</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button data-bs-target="#carousel-ex" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#carousel-ex" data-bs-slide="next" class="carousel-control-next" type="button">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </section>
+        <section id="novos-materiais">
+            <h2>Novos materiais</h2>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 col-12">
+                    <article class="card">
+                        <div class="card-header">Geometria</div>
+                        <img src="https://cdn.pixabay.com/photo/2015/11/15/07/47/geometry-1044090_1280.jpg"/>
+                        <div class="card-body">
+                            <h4 class="card-title">Principais fórmulas para o vestibular</h4>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa alias, beatae eveniet libero praesentium, aperiam consectetur esse</p>
+                            <a href="#" class="btn btn-primary">Leia mais</a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md-4 col-sm-6 col-12">
+                    <article class="card">
+                        <div class="card-header">História Mundial</div>
+                        <img src="https://media.istockphoto.com/id/1430428167/pt/vetorial/covent-garden-theatre-fire-in-1856.webp?s=2048x2048&w=is&k=20&c=AAWv5-ZcHoFchi2T30_fAed67ZNcS5ShlrPNjM8PImo="/>
+                        <div class="card-body">
+                            <h4 class="card-title">100 anos da tentativa de Incêndio do Parlamento Inglês</h4>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa alias, beatae eveniet libero praesentium, aperiam consectetur esse Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo autem assumenda saepe odio, laborum in minus atque fugit, amet, accusantium enim voluptatum rem veritarticles. Aliquid illo voluptate dolorem temporibus provident?</p>
+                            <a href="#" class="btn btn-primary">Leia mais</a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md-4 col-sm-6 col-12">
+                    <article class="card">
+                        <div class="card-header">História mundial</div>
+                        <img src="https://cdn.pixabay.com/photo/2018/05/17/18/32/map-3409359_1280.jpg"/>
+                        <div class="card-body">
+                            <h4 class="card-title">Grandes navegações</h4>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa alias, beatae eveniet libero praesentium, aperiam consectetur esse Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam veritatis possimus reiciendis itaque aliquid. </p>
+                            <a href="#" class="btn btn-primary">Leia mais</a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md-4 col-sm-6 col-12">
+                    <article class="card">
+                        <div class="card-header">Geometria Analítica</div>
+                        <img src="https://cdn.pixabay.com/photo/2015/11/05/08/21/geometry-1023846_1280.jpg"/>
+                        <div class="card-body">
+                            <h4 class="card-title">Provas específicas</h4>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa alias, beatae eveniet libero praesentium, aperiam consectetur esse</p>
+                            <a href="#" class="btn btn-primary">Leia mais</a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md-4 col-sm-6 col-12">
+                    <article class="card">
+                        <div class="card-header">Teste</div>
+                        <img src="https://cdn.pixabay.com/photo/2015/11/15/07/47/geometry-1044090_1280.jpg"/>
+                        <div class="card-body">
+                            <h4 class="card-title">Qual é o curso mais parecido comigo?</h4>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa alias, beatae eveniet libero praesentium, aperiam consectetur esse Ipsa alias, beatae eveniet libero praesentium, aperiam consectetur esse</p>
+                            <a href="#" class="btn btn-primary">Leia mais</a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md-4 col-sm-6 col-12">
+                    <article class="card">
+                        <div class="card-header">Biologia</div>
+                        <img src="https://cdn.pixabay.com/photo/2021/08/02/16/21/dna-6517209_1280.jpg"/>
+                        <div class="card-body">
+                            <h4 class="card-title">Principais tópicos sobre DNA e RNH</h4>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa alias, beatae eveniet libero praesentium, aperiam consectetur esse  eligendi dicta qui. Sit minima inventore, nulla dolorem cum ipsa omnis voluptatibus fuga cupiditate iste?</p>
+                            <a href="#" class="btn btn-primary">Leia mais</a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md-4 col-sm-6 col-12">
+                    <article class="card">
+                        <div class="card-header">Literatura</div>
+                        <img src="https://cdn.pixabay.com/photo/2020/01/12/13/29/learn-4759967_1280.png"/>
+                        <div class="card-body">
+                            <h4 class="card-title">Leituras obrigatórias para os principais vestibulares</h4>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa alias, beatae eveniet libero praesentium, aperiam consectetur esse</p>
+                            <a href="#" class="btn btn-primary">Leia mais</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section id="exercicios">
+            <h2>Exercícios</h2>
+            <nav class="nav nav-tabs">
+                <button data-bs-toggle="tab" data-bs-target="#aba1" class="nav-link active" type="button">Multipla escolha</button>
+                <button data-bs-toggle="tab" data-bs-target="#aba2" class="nav-link" type="button">Dissertativo</button>
+            </nav>
+            <div class="tab-content">
+                <div id="aba1" class="tab-pane active">
+                    <p>Exercícios de questões multipla escolha</p>
+                </div>
+            </div>
+            <div id="aba2" class="tab-content">
+                <div class="tab-pane">
+                    <p>Exercícios de questões dissertativas</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="lib/cdn.jsdelivr.net_npm_bootstrap@5.3.2_dist_js_bootstrap.bundle.min.js"></script>
+</body>
+</html>
