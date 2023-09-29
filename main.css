@@ -5,9 +5,6 @@ body{
 header{
     background-color: rgb(68, 119, 177);
     margin-bottom: 50px;
-    position: sticky;
-    top: 0;
-    left: 0;
 }
 
 .nav-link{
@@ -16,6 +13,11 @@ header{
 
 #materias img{
     max-height: 800px;
+    margin: auto;
+}
+
+#materias button{
+    max-height: 100px;
     margin: auto;
 }
 
@@ -30,5 +32,11 @@ header{
 
 .card{
     margin-top: 10px;
+}
+
+#aba1,
+#aba2{
+    background-color: aliceblue;
+    padding: 8px;
 }
 
